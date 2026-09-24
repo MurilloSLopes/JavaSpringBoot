@@ -2,7 +2,7 @@ package br.com.fiap.projeto_api.model;
 
 public class Imovel {
     public int codigo;
-    public String descriacao;
+    public String descricao;
     public double dimensao;
     public double valor;
 
@@ -11,14 +11,14 @@ public class Imovel {
     }
 
     public Imovel(String descriacao, double dimensao, double valor) {
-        this.descriacao = descriacao;
+        this.descricao = descriacao;
         this.dimensao = dimensao;
         this.valor = valor;
     }
 
     public Imovel(int codigo, String descriacao, double dimensao, double valor) {
         this.codigo = codigo;
-        this.descriacao = descriacao;
+        this.descricao = descriacao;
         this.dimensao = dimensao;
         this.valor = valor;
     }
@@ -32,11 +32,11 @@ public class Imovel {
     }
 
     public String getDescriacao() {
-        return descriacao;
+        return descricao;
     }
 
     public void setDescriacao(String descriacao) {
-        this.descriacao = descriacao;
+        this.descricao = descriacao;
     }
 
     public double getDimensao() {
